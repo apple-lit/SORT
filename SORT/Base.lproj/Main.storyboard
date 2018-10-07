@@ -52,7 +52,7 @@
                     <view key="view" contentMode="scaleToFill" id="sR4-xR-mp2">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.21948641538619995" green="0.82747691869735718" blue="0.66431218385696411" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Gof-vZ-PGT"/>
                     </view>
                     <connections>
@@ -98,11 +98,12 @@
                     </view>
                     <connections>
                         <outlet property="numberLabel" destination="Sy0-iB-ky0" id="mSl-8J-5wV"/>
+                        <segue destination="dPZ-vO-Sv0" kind="presentation" identifier="toResult" modalTransitionStyle="crossDissolve" id="JeB-he-tL0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nqv-hg-aDo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1741.5999999999999" y="130.88455772113943"/>
+            <point key="canvasLocation" x="1820" y="131"/>
         </scene>
         <!--Result View Controller-->
         <scene sceneID="kOI-C4-LP5">
@@ -166,6 +167,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="JeB-he-tL0"/>
         <segue reference="6b2-XF-z5p"/>
     </inferredMetricsTieBreakers>
 </document>

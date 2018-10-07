@@ -29,6 +29,13 @@ class GameViewController: UIViewController {
         
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "toResult"{
+            let resultViewController = segue.destination as! ResultViewController
+            resultViewController.score = self.score
+        }
+    }
+    
     @IBAction func right(){
         
         if (number % 3 == 0){
@@ -48,6 +55,8 @@ class GameViewController: UIViewController {
             number = number + 1
             numberLabel.text = String(number)
             score += 1
+        }else{
+            self.performSegue(withIdentifier: "toResult", sender: nil)
         }
         
     }
@@ -58,6 +67,8 @@ class GameViewController: UIViewController {
             number  = number + 1
             numberLabel.text = String(number)
             score += 1
+        }else{
+            self.performSegue(withIdentifier: "toResult", sender: nil)
         }
         
     }

@@ -11,10 +11,14 @@ import UIKit
 class ResultViewController: UIViewController {
     
     @IBOutlet var scoreLabel : UILabel!
+    
+    var score : Int = 0
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        
+        scoreLabel.text = String(score)
         
     }
     
