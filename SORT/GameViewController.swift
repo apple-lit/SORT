@@ -17,6 +17,7 @@ class GameViewController: UIViewController {
 //    @IBOutlet var wrong: UIButton!
     
     var number = 0
+    var score : Int = 0
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -46,20 +47,33 @@ class GameViewController: UIViewController {
     
     @IBAction func right(){
         
-        if (number % 3 == 0 || number % 10 == 0){
+        if (number % 3 == 0){
+            
             number = number + 1
             numberLabel.text = String(number)
+            score += 1
             
+        }else if(number % 10 == 3){
+            
+            number = number + 1
+            numberLabel.text = String(number)
+            score += 1
+            
+        }else if(number == 31 || number == 32 || number == 34 || number == 35 || number == 37 || number == 38){
+            
+            number = number + 1
+            numberLabel.text = String(number)
+            score += 1
         }
         
     }
     
     @IBAction func wrong(){
         
-        if(number % 3 != 0 || number % 10 != 0){
+        if(number % 3 != 0 && number % 10 != 3){
             number  = number + 1
             numberLabel.text = String(number)
-            
+            score += 1
         }
         
     }

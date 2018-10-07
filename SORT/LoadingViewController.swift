@@ -24,32 +24,23 @@ class LoadingViewController: UIViewController {
         animationView.animationSpeed = 1
 
 
+        
         view.addSubview(animationView)
         
         animationView.play()
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
             animationView.stop()
-            self.screenTransition()
+            transition()
+                
+            }
+        
+        func transition(){
+            
+            self.performSegue(withIdentifier: "toGame", sender: nil)
             
         }
 
-        
-    }
-    
-    
-
-    func screenTransition() {
-        
-        // 遷移するViewを定義する.
-        let gameViewController: UIViewController = GameViewController()
-        
-        // アニメーションを設定する.
-        gameViewController.modalTransitionStyle = UIModalTransitionStyle.crossDissolve
-        
-        // Viewの移動する.
-        self.present(gameViewController, animated: true, completion: nil)
-    }
-    
+}
 
 }
