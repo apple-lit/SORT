@@ -19,6 +19,7 @@
 		43FDC00C2168636200D2A5D5 /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43FDC00B2168636200D2A5D5 /* Lottie.framework */; };
 		43FDC00F21687D5100D2A5D5 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FDC00E21687D5100D2A5D5 /* GameViewController.swift */; };
 		43FDC0152168829500D2A5D5 /* gradient_animated_background.json in Resources */ = {isa = PBXBuildFile; fileRef = 43FDC0142168829500D2A5D5 /* gradient_animated_background.json */; };
+		43FDC0172169A62B00D2A5D5 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FDC0162169A62B00D2A5D5 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		43FDC00B2168636200D2A5D5 /* Lottie.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Lottie.framework; path = Carthage/Build/iOS/Lottie.framework; sourceTree = "<group>"; };
 		43FDC00E21687D5100D2A5D5 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		43FDC0142168829500D2A5D5 /* gradient_animated_background.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = gradient_animated_background.json; path = "../../json file/gradient_animated_background.json"; sourceTree = "<group>"; };
+		43FDC0162169A62B00D2A5D5 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				43FDBFE42168560900D2A5D5 /* Info.plist */,
 				43FDC00621685C6200D2A5D5 /* LoadingViewController.swift */,
 				43FDC00E21687D5100D2A5D5 /* GameViewController.swift */,
+				43FDC0162169A62B00D2A5D5 /* ResultViewController.swift */,
 			);
 			path = SORT;
 			sourceTree = "<group>";
@@ -304,6 +307,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43FDC0172169A62B00D2A5D5 /* ResultViewController.swift in Sources */,
 				43FDC00F21687D5100D2A5D5 /* GameViewController.swift in Sources */,
 				43FDBFDB2168560700D2A5D5 /* ViewController.swift in Sources */,
 				43FDBFD92168560700D2A5D5 /* AppDelegate.swift in Sources */,

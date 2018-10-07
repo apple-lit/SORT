@@ -13,8 +13,6 @@ class GameViewController: UIViewController {
     
     @IBOutlet var numberLabel: UILabel!
     
-//    @IBOutlet var right: UIButton!
-//    @IBOutlet var wrong: UIButton!
     
     var number = 0
     var score : Int = 0
@@ -27,20 +25,6 @@ class GameViewController: UIViewController {
         
        //numberLabelを最前面に
         self.view.bringSubviewToFront(numberLabel)
-
-        //背景Lottie導入
-        
-//        let animationView = LOTAnimationView(name: "gradient_animated_background")
-//        animationView.frame = CGRect(x: 0, y: 0, width: self.view.bounds.width, height: self.view.bounds.height)
-//        animationView.center = self.view.center
-//        animationView.loopAnimation = true
-//        animationView.contentMode = .scaleToFill
-//        animationView.animationSpeed = 1
-//
-//        view.addSubview(animationView)
-//
-//        animationView.play()
-        
         
         
     }
