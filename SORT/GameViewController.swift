@@ -12,14 +12,26 @@ import Lottie
 class GameViewController: UIViewController {
     
     @IBOutlet var numberLabel: UILabel!
+    @IBOutlet var countDownLabel: UILabel!
+    
+    var count : Double = 30
+    var timer : Timer!
     
     
     var number = 0
     var score : Int = 0
+    
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        
+        timer = Timer.scheduledTimer(timeInterval: 1,
+                                     target: self,
+                                     selector: #selector(self.onUpdate(timer:)),
+                                     userInfo: nil,
+                                     repeats: true)
         
         numberLabel.text = String(number)
         
@@ -72,6 +84,23 @@ class GameViewController: UIViewController {
         }
         
     }
+    
+    @objc func onUpdate(timer : Timer){
+        
+        
+        count -= 1
+        
+        let str = String(format: "%.0f", count)
+        
+        countDownLabel.text = str
+        
+        if count == 0{
+            timer.invalidate()
+            self.performSegue(withIdentifier: "toResult", sender: nil)
+        }
+        
+    }
+
     
 
     

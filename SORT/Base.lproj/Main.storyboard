@@ -92,18 +92,26 @@
                                     <action selector="right" destination="q3d-sB-B9y" eventType="touchUpInside" id="hTH-c4-JKy"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="30" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="btT-UB-qTC">
+                                <rect key="frame" x="78" y="40" width="219" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="PoW-lL-reP"/>
                     </view>
                     <connections>
+                        <outlet property="countDownLabel" destination="btT-UB-qTC" id="RPI-yN-PYS"/>
                         <outlet property="numberLabel" destination="Sy0-iB-ky0" id="mSl-8J-5wV"/>
                         <segue destination="dPZ-vO-Sv0" kind="presentation" identifier="toResult" modalTransitionStyle="crossDissolve" id="JeB-he-tL0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nqv-hg-aDo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1820" y="131"/>
+            <point key="canvasLocation" x="1820" y="130.88455772113943"/>
         </scene>
         <!--Result View Controller-->
         <scene sceneID="kOI-C4-LP5">
