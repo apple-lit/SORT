@@ -57,7 +57,7 @@ class HARDGameViewController: UIViewController {
             numberLabel.text = String(number)
             score += 1
             
-        }else if(number == 31 || number == 32 || number == 34 || number == 35 || number == 37 || number == 38){
+        }else if(number == 31 || number == 32 || number == 34 || number == 35 || number == 37 || number == 38 || number == 300 || number == 131 || number == 133 || number == 134 || number == 136 || number == 137 || number == 139 || number == 232 || number == 233 || number == 235 || number == 236 || number == 238 || number == 239){
             
             number = Int(arc4random_uniform(301))
             numberLabel.text = String(number)
