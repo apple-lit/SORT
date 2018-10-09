@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		4397F33A216B2DF000EE4BBE /* ExplanationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4397F339216B2DF000EE4BBE /* ExplanationViewController.swift */; };
+		4397F33C216C644400EE4BBE /* HARDExplanationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4397F33B216C644400EE4BBE /* HARDExplanationViewController.swift */; };
+		4397F33E216C647300EE4BBE /* HARDLoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4397F33D216C647300EE4BBE /* HARDLoadingViewController.swift */; };
+		4397F340216C66A600EE4BBE /* HARDGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4397F33F216C66A600EE4BBE /* HARDGameViewController.swift */; };
+		4397F342216C67A800EE4BBE /* HARDResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4397F341216C67A800EE4BBE /* HARDResultViewController.swift */; };
 		43FDBFD92168560700D2A5D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FDBFD82168560700D2A5D5 /* AppDelegate.swift */; };
 		43FDBFDB2168560700D2A5D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FDBFDA2168560700D2A5D5 /* ViewController.swift */; };
 		43FDBFDE2168560700D2A5D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43FDBFDC2168560700D2A5D5 /* Main.storyboard */; };
@@ -42,6 +46,10 @@
 
 /* Begin PBXFileReference section */
 		4397F339216B2DF000EE4BBE /* ExplanationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplanationViewController.swift; sourceTree = "<group>"; };
+		4397F33B216C644400EE4BBE /* HARDExplanationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HARDExplanationViewController.swift; sourceTree = "<group>"; };
+		4397F33D216C647300EE4BBE /* HARDLoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HARDLoadingViewController.swift; sourceTree = "<group>"; };
+		4397F33F216C66A600EE4BBE /* HARDGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HARDGameViewController.swift; sourceTree = "<group>"; };
+		4397F341216C67A800EE4BBE /* HARDResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HARDResultViewController.swift; sourceTree = "<group>"; };
 		43FDBFD52168560700D2A5D5 /* SORT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SORT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43FDBFD82168560700D2A5D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		43FDBFDA2168560700D2A5D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -125,6 +133,10 @@
 				43FDC00E21687D5100D2A5D5 /* GameViewController.swift */,
 				43FDC0162169A62B00D2A5D5 /* ResultViewController.swift */,
 				4397F339216B2DF000EE4BBE /* ExplanationViewController.swift */,
+				4397F33B216C644400EE4BBE /* HARDExplanationViewController.swift */,
+				4397F33D216C647300EE4BBE /* HARDLoadingViewController.swift */,
+				4397F33F216C66A600EE4BBE /* HARDGameViewController.swift */,
+				4397F341216C67A800EE4BBE /* HARDResultViewController.swift */,
 			);
 			path = SORT;
 			sourceTree = "<group>";
@@ -314,7 +326,11 @@
 				43FDC00F21687D5100D2A5D5 /* GameViewController.swift in Sources */,
 				4397F33A216B2DF000EE4BBE /* ExplanationViewController.swift in Sources */,
 				43FDBFDB2168560700D2A5D5 /* ViewController.swift in Sources */,
+				4397F340216C66A600EE4BBE /* HARDGameViewController.swift in Sources */,
+				4397F33C216C644400EE4BBE /* HARDExplanationViewController.swift in Sources */,
+				4397F342216C67A800EE4BBE /* HARDResultViewController.swift in Sources */,
 				43FDBFD92168560700D2A5D5 /* AppDelegate.swift in Sources */,
+				4397F33E216C647300EE4BBE /* HARDLoadingViewController.swift in Sources */,
 				43FDC00721685C6200D2A5D5 /* LoadingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
